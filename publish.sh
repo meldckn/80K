@@ -5,7 +5,7 @@ echo SOE username:
 read USRNAME
 echo file/path \in ./ to upload: 
 read FILE
-echo scp -r ./$FILE $USRNAME@riverdance.soe.ucsc.edu:$CLASSDIR
-scp -r ./$FILE $USRNAME@riverdance.soe.ucsc.edu:$CLASSDIR
+echo scp -r ./$FILE $USRNAME@riverdance.soe.ucsc.edu:$CLASSDIR$FILE
+scp -r ./$FILE $USRNAME@riverdance.soe.ucsc.edu:$CLASSDIR$FILE
 
 
